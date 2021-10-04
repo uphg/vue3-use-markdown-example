@@ -1,0 +1,23 @@
+{
+  "name": "vue3-use-markdown-example",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "prismjs": "^1.25.0",
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.2",
+    "@types/prismjs": "^1.16.6",
+    "@vitejs/plugin-vue": "^1.9.2",
+    "markdown-it-custom-block": "^0.1.2",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.0",
+    "vite-plugin-md": "^0.11.1",
+    "vue-tsc": "^0.3.0"
+  }
+}
